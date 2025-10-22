@@ -41,13 +41,14 @@
         End Set
     End Property
 
-    Sub New(suit As String, rank As String)
+    Sub New(rank As String, suit As String)
         Me.suit = suit.ToUpper
         Me.rank = rank.ToUpper
 
+
         Me.frontImage = My.Resources.ResourceManager.GetObject($"{Me.rank}{Me.suit}")
         If Me.frontImage Is Nothing Then
-            Me.frontImage = My.Resources.ResourceManager.GetObject($"{Me.rank}{Me.suit}")
+            Me.frontImage = My.Resources.ResourceManager.GetObject($"_{Me.rank}{Me.suit}")
         End If
         If Me.frontImage Is Nothing Then
             Me.frontImage = My.Resources.aces
