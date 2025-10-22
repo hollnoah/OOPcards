@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class OOPcards
+Partial Class MainForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,12 +24,12 @@ Partial Class OOPcards
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'Form1
+        'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Name = "Form1"
+        Me.Name = "MainForm"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
