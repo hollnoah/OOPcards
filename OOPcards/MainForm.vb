@@ -1,7 +1,7 @@
 ﻿Public Class MainForm
     Private Sub MainForm_Click(sender As Object, e As EventArgs) Handles Me.Click
-        Dim ah As New Card("q", "h")
-        Dim twoS As New Card("q", "h")
+        Dim ah As New Card("a", "s")
+        Dim twoS As New Card("4", "d")
 
         Dim g As Graphics = Me.CreateGraphics
 
